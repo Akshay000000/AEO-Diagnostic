@@ -1,6 +1,6 @@
-# AEO Diagnostic — AI Engine Optimization Report Card
+# AEO Diagnostic - AI Engine Optimization Report Card
 
-See how your product ranks when shoppers ask Claude, Gemini, and Cohere.
+See how your product ranks when shoppers ask Grok (Llama) and Cohere.
 
 ## Setup
 
@@ -8,7 +8,7 @@ See how your product ranks when shoppers ask Claude, Gemini, and Cohere.
 ```bash
 cd backend
 pip install -r requirements.txt
-ANTHROPIC_API_KEY=your_key GEMINI_API_KEY=your_key COHERE_API_KEY=your_key uvicorn main:app --reload
+GROQ_API_KEY=your_key COHERE_API_KEY=your_key uvicorn main:app --reload
 ```
 
 ### Frontend
@@ -28,7 +28,7 @@ npm run dev
 3. Root directory: `backend`
 4. Build command: `pip install -r requirements.txt`
 5. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-6. Add env vars: ANTHROPIC_API_KEY, GEMINI_API_KEY, COHERE_API_KEY
+6. Add env vars: GROQ_API_KEY, COHERE_API_KEY
 
 ### Frontend → Vercel
 1. New project on vercel.com
@@ -37,6 +37,6 @@ npm run dev
 4. Deploy
 
 ## APIs Used
-- Anthropic Claude (claude-opus-4-5)
-- Google Gemini (gemini-1.5-flash)
-- Cohere (command-r-plus)
+- Groq - Llama 3.3 70B Versatile
+- Groq - Llama 3.1 8B Instant
+- Cohere (command-a-03-2025)
