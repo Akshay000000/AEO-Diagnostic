@@ -1,36 +1,37 @@
-# 🚀 AEO Diagnostic – AI Engine Optimization Report Card
+# AEO Diagnostic - AI Engine Optimization Report Card
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://aeo-diag-akshay.vercel.app/)
+[Click here for Live Demo: AEO Diagnostic](https://aeo-diag-akshay.vercel.app/)
+
 [![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](#)
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#)
 
 AEO Diagnostic is a specialized tool designed to help brands and product owners understand how their products rank when shoppers ask AI assistants for recommendations. 
 
-By simultaneously querying multiple top-tier AI models, this application analyzes the responses and generates a comprehensive **"Report Card"** detailing your product's AI visibility, mention frequency, sentiment, and ranking position.
+By simultaneously querying multiple top-tier AI models, this application analyzes the responses and generates a comprehensive "Report Card" detailing your product's AI visibility, mention frequency, sentiment, and ranking position.
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Concurrent AI Querying:** Fetches responses simultaneously from industry-leading models to save time.
-- **📊 Deep Sentiment Analysis:** Evaluates whether AI mentions of your product are positive, neutral, or negative.
-- **🏆 Position Tracking:** Determines how early your product is mentioned in the AI's recommendation list.
-- **🎯 AEO Scoring System:** Calculates an overall grade (A-F) based on mention rate, sentiment quality, and list position.
-- **💡 Actionable Insights:** Provides tailored recommendations to improve your product's AI discoverability based on your score.
-- **🎨 Premium UI/UX:** A sleek, responsive, dark-themed interface built with React, featuring subtle animations and modern design principles.
+- Concurrent AI Querying: Fetches responses simultaneously from industry-leading models to save time.
+- Deep Sentiment Analysis: Evaluates whether AI mentions of your product are positive, neutral, or negative.
+- Position Tracking: Determines how early your product is mentioned in the AI's recommendation list.
+- AEO Scoring System: Calculates an overall grade (A-F) based on mention rate, sentiment quality, and list position.
+- Actionable Insights: Provides tailored recommendations to improve your product's AI discoverability based on your score.
+- Premium UI/UX: A sleek, responsive, dark-themed interface built with React, featuring subtle animations and modern design principles.
 
 ---
 
-## 🧠 Supported AI Engines
+## Supported AI Engines
 
 This tool leverages high-speed inference APIs to query the following models:
-- **Llama 3.3 (70B Versatile)** via [Groq](https://groq.com/)
-- **Llama 3.1 (8B Instant)** via [Groq](https://groq.com/)
-- **Command R+ (command-a-03-2025)** via [Cohere](https://cohere.com/)
+- Llama 3.3 (70B Versatile) via [Groq](https://groq.com/)
+- Llama 3.1 (8B Instant) via [Groq](https://groq.com/)
+- Command R+ (command-a-03-2025) via [Cohere](https://cohere.com/)
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Frontend:**
 - [React](https://reactjs.org/) 18
@@ -45,7 +46,7 @@ This tool leverages high-speed inference APIs to query the following models:
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## Quick Start (Local Development)
 
 ### Prerequisites
 - Node.js (v18+)
@@ -78,7 +79,7 @@ The frontend will run on `http://localhost:5173`.
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 ### Deploy Backend (Render)
 1. Push your code to GitHub.
@@ -99,5 +100,5 @@ The frontend will run on `http://localhost:5173`.
 
 ---
 
-## 📄 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
