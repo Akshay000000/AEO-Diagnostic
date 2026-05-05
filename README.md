@@ -22,6 +22,25 @@ By simultaneously querying multiple top-tier AI models, this application analyze
 
 ---
 
+## Demonstration
+
+**1. Query Input**  
+Enter the likely shopper query (e.g., *"best magnesium supplement for seniors"*) and the product you want to test (e.g., *"NatureMade Magnesium"*). The system will concurrently ping all configured AI engines.
+
+![Query Input](assets/1.png)
+
+**2. Overall Score Dashboard**  
+Instantly receive a comprehensive AEO Score summarizing your visibility, sentiment analysis, and average ranking position across all engines.
+
+![Overall Score Dashboard](assets/2.png)
+
+**3. Detailed Engine Breakdowns**  
+Drill down into individual AI engine responses. Expand the cards to see exactly how Llama or Cohere justified their recommendations and where your product was mentioned.
+
+![Detailed Engine Breakdowns](assets/3.png)
+
+---
+
 ## Supported AI Engines
 
 This tool leverages high-speed inference APIs to query the following models:
