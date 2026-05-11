@@ -4,3 +4,4 @@ cohere
 pydantic
 python-dotenv
 groq
+httpx
