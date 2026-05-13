@@ -81,7 +81,6 @@ Components and relationships rendered visually — model, kind, name, namespace,
 
 ![Visual View](assets/meshery_4.png)
 
-> **Note:** Take screenshots of the live demo and add them to `assets/` as `meshery_1.png`, `meshery_2.png`, `meshery_3.png`, `meshery_4.png`.
 
 ### Example Input/Output
 
